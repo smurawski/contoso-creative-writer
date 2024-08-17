@@ -23,7 +23,7 @@ def get_embedding(request: str):
 
     client = AzureOpenAI(
         azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT"), 
-        api_version=os.environ["AZURE_OPENAI_API_VERSION"],
+        api_version=os.getenv("AZURE_OPENAI_API_VERSION"),
         azure_ad_token_provider=token_provider
     )
 
