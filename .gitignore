@@ -144,3 +144,8 @@ kustomize
 package-lock.json
 src/api/api/agents/writer/.promptflow/
 flow.flex.yaml
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

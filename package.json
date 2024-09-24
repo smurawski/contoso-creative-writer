@@ -1,0 +1,18 @@
+{
+  "name": "contoso-creative-writer",
+  "version": "1.0.0",
+  "description": "--- page_type: sample languages: - azdeveloper - python - js - typescript - bash - bicep products: - azure - azure-openai - azure-bing-web - azure-cognitive-search urlFragment: agent-openai-python-prompty name: Creative Writing Assistant - Working with Agents using Promptflow (Python Implementation) description: Using Azure OpenAI agent with Python, integrating Bing Search API and Azure AI Search, to create articles based on user topics and instruction. --- <!-- YAML front-matter schema: https://review.learn.microsoft.com/en-us/help/contribute/samples/process/onboarding?branch=main#supported-metadata-fields-for-readmemd -->",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@azure/microsoft-playwright-testing": "^1.0.0-beta.3",
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.6.1"
+  }
+}
