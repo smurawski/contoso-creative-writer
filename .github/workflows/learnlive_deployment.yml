@@ -46,7 +46,7 @@ env:
   DEPLOYMENT_MANIFEST_PATH: |
     ./infra/manifests/api/deployment.yaml
   DOCKER_FILE: ./src/api/Dockerfile
-  BUILD_CONTEXT_PATH: ./
+  BUILD_CONTEXT_PATH: ./src/api
   NAMESPACE: ccw
 
 jobs:
