@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: web:latest
+          image: crmji1ywfjzji5o.azurecr.io/web:latest
           ports:
             - containerPort: 80
           env:
